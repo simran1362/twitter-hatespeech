@@ -64,4 +64,4 @@ if __name__ == '__main__':
     if text == "test":
         text = u"I TEST alllll kinds of #hashtags and #HASHTAGS, @mentions and 3000 (http://t.co/dkfjkdf). w/ <3 :) haha!!!!!"
     tokens = tokenize(text)
-    print tokens
+    print(tokens)

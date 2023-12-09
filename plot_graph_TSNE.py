@@ -31,13 +31,13 @@ def get_transform(initial_emb, final_emb):
         vec.append(final_emb[w])
     
     X = np.array(vec)
-    print X.shape
+    print(X.shape)
     
     model = TSNE(n_components=2, random_state=0)
     out = model.fit_transform(X)
     
-    print out
-    print "Will plot now!"
+    print(out)
+    print("Will plot now!")
     return out
 
 
